@@ -1,0 +1,4 @@
+#exclude state and backup files
+/state.json
+/TR.png
+/settings.json.*

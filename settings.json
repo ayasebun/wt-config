@@ -53,7 +53,7 @@
         "defaults": 
         {
             "acrylicOpacity": 0.65000000000000002,
-            "backgroundImage": "C:\\Users\\fish\\Desktop\\precious thing\\Commissions\\TR.png",
+            "backgroundImage": "ms-appdata:///Local/TR.png",
             "backgroundImageOpacity": 0.10000000000000001,
             "bellStyle": "none",
             "cursorShape": "filledBox",
