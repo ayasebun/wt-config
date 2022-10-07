@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -6,14 +7,10 @@
             "command": 
             {
                 "action": "globalSummon",
-                "name": "_quake",
-                "dropdownDuration": 300
+                "dropdownDuration": 300,
+                "name": "_quake"
             },
             "keys": "ctrl+f12"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+d"
         },
         {
             "command": 
@@ -22,6 +19,10 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+d"
         },
         {
             "command": "paste",
@@ -49,27 +50,30 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.65000000000000002,
             "backgroundImage": "ms-appdata:///Local/TR.png",
-            "backgroundImageOpacity": 0.10000000000000001,
+            "backgroundImageOpacity": 0.15000000000000001,
             "bellStyle": "none",
+            "closeOnExit": "graceful",
             "colorScheme": "One Half Dark",
             "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Cascadia Mono"
+            },
             "historySize": 999999999,
             "icon": "\ud83e\udd5f",
+            "opacity": 90,
             "padding": "8",
             "useAcrylic": false
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -87,6 +91,12 @@
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{ec96f90e-4d81-5d70-badd-c19b17203a4a}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2017",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
